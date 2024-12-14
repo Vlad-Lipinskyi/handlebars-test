@@ -1,0 +1,21 @@
+{
+  "name": "handlebars-test",
+  "version": "1.0.0",
+  "description": "handlebars-practice",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "handlebars": "^4.7.8",
+    "parcel": "^2.13.2",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
